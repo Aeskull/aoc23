@@ -36,7 +36,7 @@ fn main() {
             .iter()
             .collect::<String>()
             .parse::<u32>()
-            .expect("first|last does not parse to u32 (should be impossible)");
+            .expect("first⌢last does not parse to u32 (should be impossible)");
         sum += n;
         s.clear();
     }
